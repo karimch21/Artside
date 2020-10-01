@@ -1,0 +1,90 @@
+@import "vars";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    font-size: 15px;
+    font-family: "Lato", "Lato-Regular", sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+blockquote {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1206px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.title {
+    padding: 0 10px;
+    font-size: 30px;
+    color: #3d506f;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block__text-paragraph {
+    margin: 0 auto 60px;
+    max-width: 760px;
+    width: 100%;
+    color: #7f90a5;
+    text-align: center;
+}
+
+.decoration__wrap .decoration-line.decoration--dark{
+    background-color: #7f90a5;
+}
+
+.decoration__wrap .decoration--dark{
+    border-color: #7f90a5;
+}
+
+.logo{
+    width: 140px;
+}
